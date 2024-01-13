@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    paadding: 0;
+}
+#titulo{
+font-family: Georgia, 'Times New Roman', Times, serif sans-serif;
+color:rgb(255, 255, 255);
+margin-left: -5%;
+}
+
+#subtitulo{
+font-family:'Times New Roman', Times, serif;
+color:rgb(255, 255, 255);
+margin-left: 7%;
+}
+p {
+    
+    border-width: 2px;
+    border-style:var(2px);
+    border-color: black;
+}
+p {
+    border-top-style:initial;
+    border-bottom-style:initial;
+  }
+
+
+body{
+    background-image: url(); 
+    padding:0; 
+    text-align:center; 
+    vertical-align:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
