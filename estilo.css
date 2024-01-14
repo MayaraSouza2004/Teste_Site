@@ -1,9 +1,16 @@
 *{
     margin: 0;
-    paadding: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    .produto-container{
+        width:100%;
+        flex-direction: column;
+    }
 }
 #titulo{
-font-family: Georgia, 'Times New Roman', Times, serif sans-serif;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color:rgb(255, 255, 255);
 margin-left: -5%;
 }
@@ -17,7 +24,7 @@ p {
     
     border-width: 2px;
     border-style:var(2px);
-    border-color: black;
+    border-color: rgb(255, 255, 255);
 }
 p {
     border-top-style:initial;
@@ -26,7 +33,7 @@ p {
 
 
 body{
-    background-image: url(); 
+    background-image: url(pngtree-gym-with-black-walls-and-weights-on-the-floor-image_2974555.jpg); 
     padding:0; 
     text-align:center; 
     vertical-align:top;
